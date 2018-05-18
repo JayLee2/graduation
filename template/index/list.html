@@ -1,0 +1,50 @@
+{include file='header.html'}
+<link rel="stylesheet" href="{CSS_URL}/read.css">
+<link rel="stylesheet" href="http://at.alicdn.com/t/font_453424_b1gzjr282unjnhfr.css">
+<link rel="stylesheet" href="{CSS_URL}/list.css">
+<script src="{JS_URL}/jquery-3.2.1.js"></script>
+<main class="img">
+    <div class="topImg">
+        <div class="topImgMask">
+            <h3>早安故事</h3>
+            <h4>Story / 1061篇</h4>
+        </div>
+        <img src="{IMG_URL}/list1.jpg" alt="">
+    </div>
+</main>
+<div class="reading">
+    <main>
+
+        <div class="clear"></div>
+        <div class="hotNew">
+            <span><a href="">HOT</a></span>
+            <span><a href="">NEW</a></span>
+        </div>
+        <ul class="readList">
+            {foreach $data as $v}
+            <li cid="{$v['cid']}">
+                <div class="readLeft">
+                    <h1><a class="con" href="index.php?m=index&f=article&cid={$v['cid']}">{$v['ctitle']}</a></h1>
+                    <h2>By / {$v['uname']}</h2>
+                    <div class="bor"></div>
+                    <div class="con">
+                        <div>{$v["con"]}</div>
+                        <span><a href="index.php?m=index&f=article&cid={$v['cid']}">VIEW ALL</a></span>
+                    </div>
+                    <div class="num">
+                        645次阅读 | 评论：11 | 喜欢：56
+                    </div>
+                </div>
+                <div class="readRight">
+                    <a href="">
+                        <img src="{$v['thumb']}" alt="" width="100%" height="100%">
+                    </a>
+                </div>
+            </li>
+            {/foreach}
+        </ul>
+    </main>
+
+</div>
+
+{include file='footer.html'}

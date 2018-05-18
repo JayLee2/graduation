@@ -1,0 +1,327 @@
+.contont>main,.liuyan>main{
+    width: 960px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    background: #fff;
+}
+body{
+    background: #fafafa;
+}
+.contont{
+    background: #fafafa;
+}
+main.center{
+    width: 640px;
+    margin:auto;
+    margin-top: 40px;
+    font-family: '苹方';
+}
+main.center>h1{
+    margin: 15px 0;
+    color: #333;
+}
+.leibie{
+    width: 80px;
+    height: 30px;
+    border: 1px solid #07141e;
+    text-align: center;
+    line-height:30px;
+}
+.next>div{
+    float: left;
+}
+div.cirImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    overflow: hidden;
+}
+div.cirImg img{
+    width: 100%;
+    height: 100%;
+}
+div.author{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+div.author>a{
+    color: #666;
+}
+div.articleInfo{
+    float: right;
+    margin-top: 10px;
+    color: #999;
+    font-size: 14px;
+}
+.contontCon{
+    color: #aaa;
+    line-height: 1.5;
+    width: 500px;
+    margin: auto;
+}
+.contontCon img{
+    display: block;
+    width: 100%;
+}
+.liuyanTop{
+    margin: 20px;
+}
+.liuleft{
+    float: left;
+    width: 5px;
+    height: 50px;
+    background: #ccc;
+}
+.liuright{
+    float: left;
+    line-height: 50px;
+    font-family: '苹方';
+    width: 150px;
+    font-size: 25px;
+    height: 48px;
+    border: 1px solid #ccc;
+    border-bottom-right-radius: 24px;
+    border-top-right-radius: 24px;
+    text-align: center;
+    text-indent: -10px;
+}
+ul.decr{
+    margin: 30px;
+}
+ul.decr>li{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #3a768f;
+    float: left;
+    margin-left: 20px;
+}
+.tou{
+    float: left;
+    border: 1px solid #ccc;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 30px;
+    overflow: hidden;
+}
+.say{
+    position: relative;
+    margin-top: 30px;
+    float: left;
+    width: 400px;
+    height: 100px;
+}
+.say>.big{
+    float: left;
+    width: 400px;
+    height: 100px;
+    border: 1px solid #dcdcdc;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 2;
+    color: #3A768F;
+    font-family: '苹方';
+    background: #dcdcdc;
+    line-height: 1.5;
+    text-indent: 20px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.say>.small{
+    position: absolute;
+    z-index: 1;
+    width: 20px;
+    height: 20px;
+    top: 40px;
+    border: 1px solid #dcdcdc;
+    left: -10px;
+    transform: rotate(45deg);
+    background: #dcdcdc;
+}
+.yan>main,.ban>main{
+    width: 860px;
+    margin: auto;
+}
+.yanBig{
+    margin-top: 50px;
+    position: relative;
+    width: 850px;
+    height: 200px;
+}
+
+.yuan2{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #3a768f;
+    border-radius: 50%;
+    line-height: 50px;
+    text-align: center;
+    color: #3a768f;
+    background: #fff;
+    top:-25px;
+    left: 30px;
+    z-index: 20;
+}
+.yuan2>a{
+    color: #3a768f;
+}
+.yanSmall{
+    box-sizing: border-box;
+    position: absolute;
+    width: 850px;
+    height: 200px;
+    border: 1px solid #3a768f;
+    border-radius: 15px;
+}
+.no1{
+    width: 90%;
+    height: 60%;
+    border: none;
+    margin: 5% 5%;
+    background: none;
+    outline: none;
+    font-size: 16px;
+}
+.no2{width: 100%;height: 100%}
+.button{
+    width: 100px;
+    height: 30px;
+    background: #3a768f;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    cursor: pointer;
+    float: right;
+    border-radius: 30px;
+}
+.fontNum{
+    float: left;
+    color: #3A768F;
+}
+.ping{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin-top: 50px;
+    color: #E74851;
+    font-size: 18px;
+    font-family: '苹方';
+}
+.pingLeft{
+    float: left;
+    border: 1px solid #e74851;
+    height: 25px;
+    width: 43px;
+    border-bottom: none;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    text-align: center;
+    line-height: 25px;
+}
+.pingRight{
+    float: left;
+    right: 0;
+    left: 0;
+    position: absolute;
+    margin-left: 45px;
+    text-align: right;
+    border-bottom: 1px solid #e74851;
+}
+.newPing>.shu{
+    width: 5px;
+    height: 20px;
+    border-radius: 2px;
+    background: #e74851;
+    float: left;
+}
+.newPing>.newFont{
+    font-family: '苹方';
+    color: #e74851;
+    float: left;
+    margin-left: 20px;
+}
+ul.pingList{
+    margin-top: 40px;
+    font-family: '苹方';
+    padding-bottom: 30px;
+}
+ul.pingList>li{
+    padding-bottom: 20px;
+    border-bottom: 1px dashed #999;
+}
+.userImg{
+    border: 1px solid #ccc;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    float: left;
+    overflow: hidden;
+}
+.pingCont{
+    float: left;
+    margin-left: 30px;
+}
+.pingCont>.userName{
+    color: #e74851;
+}
+.pingCont>.userCon{
+    color: #666;
+
+}
+.huifu{
+    float: right;
+}
+.huifu span{
+    margin-left: 20px;
+    cursor: pointer;
+}
+.guanzhu{
+    width: 60px;
+    line-height: 25px;
+    text-align: center;
+    color: #fff;
+    background: #00a0d2;
+    border-radius: 5px;
+    margin: 5px 5px;
+    cursor: pointer;
+    height: 25px;
+}
+.zan{
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background: #00a0d2;
+    font-family: '苹方';
+    font-size: 18px;
+    color: #fff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.return{
+    width: 90%;
+    float: right;
+    margin-top: 15px;
+    height: 50px;
+    line-height: 24px;
+}
+.returnCon{
+    width: 82%;
+    height: 50px;
+    border: 1px solid #ccc;
+    float: right;
+}
+.returnConCon{
+    width: 100%;
+    height: 100%;
+}
+.repeatCon{
+    text-indent: 240px;
+}
+.red{
+    color: #e74851;
+}

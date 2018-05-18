@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="{CSS_URL}/header.css">
+    <link rel="stylesheet" href="{CSS_URL}/index.css">
+    <link rel="stylesheet" href="{CSS_URL}/footer.css">
+    <link rel="stylesheet" href="{CSS_URL}/bootstrap.css">
+    <script src="{JS_URL}/jquery-3.2.1.js"></script>
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_453228_ovvuktljwqyw4s4i.css">
+</head>
+<body>
+<header>
+    <main>
+        <div class="head-logo">
+            <a href="index.php"></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.php">首页</a></li>
+                <li><a href="index.php?f=read">阅读</a></li>
+                <li><a href="index.php?f=music">音乐</a></li>
+                <li><a href="">碎片</a></li>
+                <li><a href="">客户端</a></li>
+            </ul>
+        </nav>
+        <div class="headRight">
+            <div class="edit">
+                <a href="index.php?m=index&f=write">
+                    <img src="{IMG_URL}/edit-icon.png" alt="" width="70%" height="70%">
+                </a>
+            </div>
+            {if $session eq '2'}
+            <div class="loginBox">
+                <a href="index.php?f=login">登陆&nbsp;/&nbsp;注册</a>
+            </div>
+            {else}
+            <div class="userImg">
+                <img src="{$photo}" alt="">
+                <ul class="set">
+                    <li><a href="index.php?f=myself">修改信息</a></li>
+                    <li><a href="index.php?f=per&uname={$uname}">个人中心</a></li>
+                    <li><a href="index.php?m=index&f=login">切换账户</a></li>
+                    <li><a href="index.php?m=index&f=login&a=outlogin">退出登陆</a></li>
+                </ul>
+            </div>
+            {/if}
+        </div>
+    </main>
+</header>
+<script>
+    $(function () {
+        $('.userImg').click(function () {
+            $('.set').toggle()
+            }
+        )
+    })
+</script>

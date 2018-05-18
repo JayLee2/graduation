@@ -1,0 +1,19 @@
+{include file='header.html'}
+<link rel="stylesheet" href="{CSS_URL}/write.css">
+<div class="container">
+    <div class="row">
+        <div class="col-md-2">{$cat}</div>
+        <div class="col-md-10">
+            <div class="o">选择相应的栏目进行文章编辑</div>
+            <iframe src="" frameborder="0" width="100%" height="99%" name="right"></iframe>
+        </div>
+    </div>
+</div>
+<script>
+    $(function () {
+        $("li>div").click(function () {
+            $('li>div').css({ "background":"transparent" })
+            $(this).css({ "background":"#B89745" }).parent('li').find('ul').toggle(200);
+        })
+    })
+</script>

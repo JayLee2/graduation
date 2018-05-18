@@ -1,0 +1,17 @@
+.boximg{
+    width: 450px;
+    float: left;
+}
+footer{
+    margin-top: 0;
+}
+.boximg img{
+    width: 100%;
+    height: 100%;
+}
+.rig{
+    float: left;
+    margin: 100px;
+    width: 500px;
+
+}

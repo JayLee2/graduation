@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="{CSS_URL}/bootstrap.css">
+</head>
+<body>
+    <table class="table table-bordered">
+        <tr>
+            <th>角色名称</th>
+            <th>发布文章数</th>
+            <th>可阅读级别</th>
+            <th>操作</th>
+        </tr>
+        {foreach $list as $v}
+        <tr>
+            <td>{$v.rname}</td>
+            <td>{$v.rwen}</td>
+            {if $v.readl==0}
+            <td>普通</td>
+            {elseif $v.readl==2}
+            <td>精华</td>
+            {else}
+            <td>极品</td>
+            {/if}
+            <td><a href="index.php?m=admin&f=userRole&a=delRole&id={$v.rid}">删除</a><a href="">修改</a></td>
+        </tr>
+        {/foreach}
+    </table>
+</body>
+</html>

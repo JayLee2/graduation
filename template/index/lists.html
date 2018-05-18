@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<a href="index.php?f=addCon&a=add&cid={$cid}">添加内容</a>
+<ul>
+    {foreach $data as $v}
+    <li style="float: left"><a href="index.php?f=addCon&a=editCon&cid={$cid}&wid={$v['cid']}">{$v.ctitle}</a></li><button><a href="index.php?f=addCon&a=delCon&cid={$cid}&wid={$v['cid']}">删除</a></button>
+    <div style="clear: both;"></div>
+    {/foreach}
+</ul>
+</body>
+</html>

@@ -1,0 +1,82 @@
+{include file='header.html'}
+<link rel="stylesheet" href="{CSS_URL}/read.css">
+<script src="{JS_URL}/jquery-3.2.1.js"></script>
+<script src="{JS_URL}/read.js"></script>
+<link rel="stylesheet" href="http://at.alicdn.com/t/font_453424_b1gzjr282unjnhfr.css">
+<main>
+    <div class="banner">
+        <main class="ban">
+            <ul>
+                <li class="now"><a href="">
+                    <img src="{IMG_URL}/banner1.JPG" alt="">
+                </a></li>
+                <li class="next"><a href="">
+                    <img src="{IMG_URL}/banner2.JPG" alt="">
+                </a></li>
+                <li><a href="">
+                    <img src="{IMG_URL}/banner3.JPG" alt="">
+                </a></li>
+                <li><a href="">
+                    <img src="{IMG_URL}/banner4.JPG" alt="">
+                </a></li>
+                <li><a href="">
+                    <img src="{IMG_URL}/banner5.JPG" alt="">
+                </a></li>
+                <li class="priv"><a href="">
+                    <img src="{IMG_URL}/banner6.JPG" alt="">
+                </a></li>
+            </ul>
+        </main>
+        <div class="banLeft icon-handoleft iconfont" style="font-size: 40px"></div>
+        <div class="banRight icon-shouzhiyou iconfont" style="font-size: 40px"></div>
+    </div>
+</main>
+<div class="reading">
+    <main>
+        <div class="title">
+            <div class="squar"></div>
+            <div class="fenlei">分类 | Classification</div>
+        </div>
+        <ul class="list">
+            {foreach $position as $v}
+            <li><a href="index.php?f=lists&pid={$v['pid']}">
+                <img src="{IMG_URL}/list1.jpg" alt="" width="100%" height="100%">
+                <div class="mask"></div>
+                <h3>{$v["pname"]}</h3>
+                <h4>{$v["count"]}</h4>
+            </a></li>
+            {/foreach}
+        </ul>
+        <div class="clear"></div>
+        <div class="title">
+            <div class="squar"></div>
+            <div class="fenlei">热评文章</div>
+        </div>
+        <ul class="readList">
+            {foreach $hotPing as $v}
+            <li>
+                <div class="readLeft">
+                    <h1><a href="index.php?f=article&cid={$v['cid']}">{$v['ctitle']}</a></h1>
+                    <h2>By / 文杰</h2>
+                    <div class="bor"></div>
+                    <div class="con">
+                        <div>{$v["con"]}</div>
+                        <span><a href="">VIEW ALL</a></span>
+                    </div>
+                    <div class="num">
+                        {$v["hnum"]}次阅读 | 评论：{$v["ping"]} | 喜欢：{$v["xi"]}
+                    </div>
+                </div>
+                <div class="readRight">
+                    <a href="">
+                        <img src="{$v['thumb']}" alt="" width="100%" height="100%">
+                    </a>
+                </div>
+            </li>
+            {/foreach}
+        </ul>
+    </main>
+
+</div>
+
+{include file='footer.html'}

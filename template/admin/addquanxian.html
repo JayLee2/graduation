@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{CSS_URL}/bootstrap.css">
+    <title>Document</title>
+</head>
+<body>
+{foreach $data as $v}
+<h1>{$v["ctitle"]}</h1>
+<h3>{$v["uname"]}</h3>
+<img src="{$v['thumb']}" alt="" width="100px" height="100px">
+<h6>{$v["condate"]}</h6>
+<p>{$v["con"]}</p>
+<form action="index.php?m=admin&f=contant&a=addquanxianCon&cid={$v['cid']}" method="post">
+    <label for="">普通<input type="radio" name="quanxian" value="0" {if $v['cquanxian']==0}checked{/if}></label>
+    <label for="">精品<input type="radio" name="quanxian" value="2" {if $v['cquanxian']==2}checked{/if}></label>
+    <label for="">极品<input type="radio" name="quanxian" value="3" {if $v['cquanxian']==3}checked{/if}></label><br>
+    <input type="submit" value="发布">
+</form>
+{/foreach}
+</body>
+</html>

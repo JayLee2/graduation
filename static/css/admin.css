@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+}
+header{
+    font-family: '苹方';
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background: #09c;
+}
+main{
+    width: 1200px;
+    margin: auto;
+}
+.home{
+    float: left;
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    line-height: 50px;
+    text-align: center;
+    background: #0087B4;
+}
+.home>i{
+    font-size: 30px;
+}
+.home:hover{
+    background: #09c;
+}
+.headBtn{
+
+}
+.return{
+    float: left;
+    width: 80px;
+    height: 50px;
+    line-height: 50px;
+    border-right: 1px solid #0087B4;
+    text-align: center;
+}
+header>div>a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+}
+.exit{
+    width: 80px;
+    float: right;
+    text-align: center;
+    line-height: 50px;
+}
+.user{
+    float: right;
+    padding: 0 10px;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    border-right: 1px solid #0087B4;
+}
+.help{
+     float: right;
+     padding: 0 10px;
+     text-align: center;
+     line-height: 50px;
+     color: #fff;
+     border-right: 1px solid #0087B4;
+ }
+div.sou{
+    float: right;
+    color: #fff;
+    text-align: center;
+    line-height: 48px;
+    border-right: 1px solid #0087B4;
+    padding: 0 10px;
+}
+div.sou>i{
+    font-size: 22px;
+}
+.headBtn:hover{
+    background: #0087B4;
+}
+.asideBig{
+    float: left;
+    width: 14%;
+    height: 100%;
+    box-sizing: border-box;
+    padding-top: 50px;
+    overflow: hidden;
+    border-right: 1px solid #ccc;
+}
+.asideSmall{
+    width: 109%;
+    height: 100%;
+    box-sizing: border-box;
+    overflow: scroll;
+    overflow-x: hidden;
+    background: #293038;
+    font-family: '苹方';
+}
+.aside_top{
+    width: 100%;
+    text-align: center;
+    background: #394555;
+    height: 30px;
+    color: #AEB9C2;
+    line-height: 30px;
+}
+.asideNav>li{
+    text-indent: -20px;
+}
+.asideNav li{
+    width: 100%;
+    height: auto;
+    line-height: 40px;
+    text-align: center;
+}
+.asideNav li a{
+    display: block;
+    width: 100%;
+    height: 40px;
+    color: #fff;
+}
+.asideNav>li>ul{
+    display: none;
+}
+.con,.con2{
+    width: 500px;
+    height: 200px;
+    border: 1px solid #ccc;
+    position: absolute;
+    top:0;
+    right: 0;
+    bottom:0;
+    left:0;
+    margin: auto;
+    font-family: '苹方';
+
+}
+.con2{
+    font-size: 150px;
+    text-align: center;
+    line-height: 100%;
+    color: #fff;
+    display: none;
+    border: none;
+}
+.conLeft{
+    width: 60%;
+    height: 100%;
+    background: #09c;
+    font-size: 70px;
+    color: #fff;
+    line-height: 200px;
+    text-align: center;
+    float: left;
+}
+.conRight{
+    font-family: '苹方';
+    width: 40%;
+    float: right;
+    color: #fff;
+    line-height: 120px;
+    text-align: center;
+}
+.conRight>p{
+    font-size: 35px;
+}
+.conRight>div{
+    font-size: 25px;
+    margin-top: -30px;
+}
+iframe{
+    position: absolute;
+    top:50px;
+    right:0;
+    width: 86%;
+    height:100%;
+}
+.push{
+    width: 50px;
+    height:50px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    position: absolute;
+    top: 70%;
+    left: 70%;
+    font-family: '苹方';
+    line-height: 50px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+}

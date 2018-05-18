@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.clear{
+    clear:both;
+}
+.contt,.contt2{
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    left: 0;
+    right:0;
+    top:0;
+    bottom:0;
+    margin: auto;
+    font-family: '苹方';
+    box-sizing: border-box;
+
+}
+.contt2{
+    display: none;
+}
+.t{
+    width: 100%;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+.inp{
+    width: 60%;
+    margin: auto;
+}
+input{
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    outline: none;
+}
+.from-group>input{
+    width: 100%;
+    height: 30px;
+    margin-top: 30px;
+    padding-left: 10px;
+}
+.forget{
+    display: block;
+    margin-top:10px;
+    margin-left: 241px;
+}
+.forget a{
+    color: #ccc;
+}
+input[type='submit'],input[type='button']{
+    width: 80px;
+    height: 30px;
+    margin-top: 10px;
+    background: #30C5B7;
+    color: #fff;
+    font-family: '苹方';
+}
+.inp input:first-of-type:hover,input:nth-of-type(2):hover{
+    border: 1px solid #999;
+}
+input[type='button']{
+    float: right;
+}
+.other{
+    width: 60%;
+    margin: 40px auto ;
+    display: flex;
+    justify-content: space-between;
+}
+.other li a{
+    color: #30C5B7;
+}
+.from-group{
+    position: relative;
+}
+label.error{
+    position: absolute;
+    color: red;
+    top:32px;
+    right:0;
+}
+form img{
+    float: left;
+    margin-top: 20px;
+}
+img+div{
+    float: right;
+}
+img+div input{
+    height: 30px;
+    margin-top: 25px;
+    text-indent: 20px;
+}

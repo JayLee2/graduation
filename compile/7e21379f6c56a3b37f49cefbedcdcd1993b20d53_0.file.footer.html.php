@@ -1,0 +1,47 @@
+<?php
+/* Smarty version 3.1.30, created on 2017-11-12 14:35:28
+  from "D:\wamp64\www\mvcyyy\template\footer.html" */
+
+/* @var Smarty_Internal_Template $_smarty_tpl */
+if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
+  'version' => '3.1.30',
+  'unifunc' => 'content_5a085c307e8323_15369666',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    '7e21379f6c56a3b37f49cefbedcdcd1993b20d53' => 
+    array (
+      0 => 'D:\\wamp64\\www\\mvcyyy\\template\\footer.html',
+      1 => 1508915348,
+      2 => 'file',
+    ),
+  ),
+  'includes' => 
+  array (
+  ),
+),false)) {
+function content_5a085c307e8323_15369666 (Smarty_Internal_Template $_smarty_tpl) {
+?>
+<footer>
+    <main>
+        <div class="footLogo"></div>
+        <div class="footMiddle">
+            <ul class="footList">
+                <li><a href="">关于我们</a></li>
+                <li><a href="">友情链接</a></li>
+                <li><a href="">片刻帮助</a></li>
+                <li><a href="">意见反馈</a></li>
+                <li><a href="">成长记忆</a></li>
+            </ul>
+            <p>All rights reserved © 2017 pianke.me /蜀ICP备12022689号-1</p>
+        </div>
+        <div class="footRight">
+            <div class="iconfont icon-shoujikehuduanjieshao"></div>
+            <div class="iconfont icon-weibo"></div>
+            <div class="iconfont icon-weixin"></div>
+        </div>
+    </main>
+</footer>
+</body>
+</html><?php }
+}
