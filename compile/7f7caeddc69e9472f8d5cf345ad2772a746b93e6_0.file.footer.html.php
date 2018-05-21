@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.30, created on 2018-05-18 09:31:27
+/* Smarty version 3.1.30, created on 2018-05-21 03:46:28
   from "D:\wamp\www\mvcyyy\template\footer.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5afe9d6f024614_72984468',
+  'unifunc' => 'content_5b024114bd09f2_58815928',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5afe9d6f024614_72984468 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5b024114bd09f2_58815928 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <footer>
     <main>

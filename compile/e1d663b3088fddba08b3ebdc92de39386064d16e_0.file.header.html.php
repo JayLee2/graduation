@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2018-05-18 09:31:27
+/* Smarty version 3.1.30, created on 2018-05-21 03:46:28
   from "D:\wamp\www\mvcyyy\template\header.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5afe9d6f003461_23917712',
+  'unifunc' => 'content_5b024114bb7a58_18193268',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'e1d663b3088fddba08b3ebdc92de39386064d16e' => 
     array (
       0 => 'D:\\wamp\\www\\mvcyyy\\template\\header.html',
-      1 => 1526632777,
+      1 => 1526874266,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5afe9d6f003461_23917712 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5b024114bb7a58_18193268 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!doctype html>
 <html lang="en">
@@ -54,7 +54,7 @@ function content_5afe9d6f003461_23917712 (Smarty_Internal_Template $_smarty_tpl)
             <ul>
                 <li><a href="index.php">首页</a></li>
                 <li><a href="index.php?f=read">阅读</a></li>
-                <li><a href="index.php?f=music">音乐</a></li>
+                <li><a href="index.php?f=music" target="_blank">音乐</a></li>
                 <li><a href="">碎片</a></li>
                 <li><a href="">客户端</a></li>
             </ul>

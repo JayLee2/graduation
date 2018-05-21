@@ -33,6 +33,8 @@ define('CSS_URL',STA_URL.'/css');
 define('JS_URL',STA_URL.'/js');
 define('FONT_URL',STA_URL.'/font/asd.ttf');
 define('IMG_URL',STA_URL.'/img');
+define('ICONFONT_URL',STA_URL.'/iconfont');
+define('MUSIC_URL',STA_URL.'/music');
 define('SERF_URL',HTTP.'://'.HOST.$_SERVER['REQUEST_URI']);
 //mvc   view(html+css+js) controller() model(数据)
 //控制器

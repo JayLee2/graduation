@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background:url('../img/a.jpg') no-repeat center/cover;
+}
+main{
+    position: relative;
+    width: 427px;
+    height: 463px;
+    border-radius: 10px;
+    margin: 100px auto;
+    border: 1px solid #000;
+    overflow: hidden;
+}
+main img{
+    position: absolute;
+    width: 100%;
+    height: 105%;
+    border-radius: 10px;
+}
+main .mask{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    height: 184px;
+    background: rgba(0,0,0,0.9);
+}
+.jindu{
+    width: 100%;
+    height: 18px;
+    position: absolute;
+    background: #000;
+    border-top: 1px solid #30353b;
+    border-bottom: 1px solid #30353b;
+    box-shadow: 0 0 3px 3px #30353b;
+}
+.bian{
+    margin-top: 2px;
+    background: #C74539;
+    width: 0;
+    height: 14px;
+    box-shadow: 0 0 1px 1px #C74539;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+h1{
+    font-family: 苹方;
+    color: #fdfdfd;
+    font-size: 23px;
+    margin-top: 40px;
+    text-align: center;
+}
+h2{
+    font-family: 苹方;
+
+    color: #8c8c8c;
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+}
+.bo{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #2d2d2d;
+    border: 2px solid #000;
+    position: absolute;
+    left: 50%;
+    font-size: 30px;
+
+    transform: translateX(-50%);
+    z-index: 55;
+    box-shadow: 0 0 1px 2px #000;
+    line-height: 60px;
+}
+.bo-qian{
+    line-height: 50px;
+    font-size: 30px;
+    text-indent: -18px;
+    position: absolute;
+    left: 146px;
+    bottom: 23px;
+    width: 61px;
+    height: 50px;
+    background: #2d2d2d;
+    border: 2px solid #000;
+    border-radius: 24px;
+}
+.bo-hou{
+    text-indent: 20px;
+    line-height:50px;
+    position: absolute;
+    left: 216px;
+    bottom: 23px;
+    width: 61px;
+    height: 50px;
+    background: #2d2d2d;
+    border: 2px solid #000;
+    border-radius: 24px;
+}
+ul{
+    font-family: '苹方';
+    padding-top: 50px;
+    position: absolute;
+    width: 150px;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    color: skyblue;
+}
+ul>li{
+    text-align: center;
+}
+div.t{
+    font-family: '苹方';
+    position: absolute;
+    right: 10px;
+    top: 30px;
+    color: #fff;
+}
+div.vim{
+    position: absolute;
+    right: 30px;
+    bottom: 10px;
+    width: 8px;
+    height: 100px;
+    background: green;
+    border-radius: 5px;
+}
+div.v{
+    width: 8px;
+    background: red;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+}
+div.cir{
+    width: 15px;
+    height: 15px;
+    background: red;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+}

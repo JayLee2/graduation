@@ -1,3 +1,27 @@
+<?php
+/* Smarty version 3.1.30, created on 2018-05-21 03:46:31
+  from "D:\wamp\www\mvcyyy\template\index\music.html" */
+
+/* @var Smarty_Internal_Template $_smarty_tpl */
+if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
+  'version' => '3.1.30',
+  'unifunc' => 'content_5b024117844306_23191268',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    'b3c48ef41fb8593702e995e2a73ed345611717d6' => 
+    array (
+      0 => 'D:\\wamp\\www\\mvcyyy\\template\\index\\music.html',
+      1 => 1526874177,
+      2 => 'file',
+    ),
+  ),
+  'includes' => 
+  array (
+  ),
+),false)) {
+function content_5b024117844306_23191268 (Smarty_Internal_Template $_smarty_tpl) {
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -6,9 +30,14 @@
     <style type="text/css">
 
     </style>
-    <script src="{JS_URL}/database.js" type="text/javascript" charset="utf-8"></script>
-    <link rel="stylesheet" href="{CSS_URL}/music.css">
-    <link rel="stylesheet" type="text/css" href="{ICONFONT_URL}/iconfont.css"/>
+    <?php echo '<script'; ?>
+ src="<?php echo JS_URL;?>
+/database.js" type="text/javascript" charset="utf-8"><?php echo '</script'; ?>
+>
+    <link rel="stylesheet" href="<?php echo CSS_URL;?>
+/music.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo ICONFONT_URL;?>
+/iconfont.css"/>
 </head>
 <body>
 <main>
@@ -38,15 +67,18 @@
 <audio src=""></audio>
 </body>
 </html>
-<script type="text/javascript">
+<?php echo '<script'; ?>
+ type="text/javascript">
     var database = [
         {
             id: "0",
             songs: "阴天",
             name: "莫文蔚",
-            src: "{MUSIC_URL}/yintian.mp3",
+            src: "<?php echo MUSIC_URL;?>
+/yintian.mp3",
             alltime: "04:02",
-            photo: "{IMG_URL}/mww.jpg",
+            photo: "<?php echo IMG_URL;?>
+/mww.jpg",
             lyrics: [
                 { time: "00:02", lyric: "阴天" },
                 { time: "00:04", lyric: "莫文蔚" },
@@ -95,9 +127,11 @@
             id: "1",
             songs: "幸福的错觉",
             name: "任重",
-            src: "{MUSIC_URL}/xingfu.mp3",
+            src: "<?php echo MUSIC_URL;?>
+/xingfu.mp3",
             alltime: "04:36",
-            photo: "{IMG_URL}/rz.jpg",
+            photo: "<?php echo IMG_URL;?>
+/rz.jpg",
             lyrics: [{ time: "00:00", lyric: " " },
                 { time: "00:01", lyric: "幸福的错觉" },
                 { time: "00:02", lyric: " " },
@@ -169,9 +203,11 @@
             id: "2",
             songs: "背影",
             name: "林宥嘉",
-            src: "{MUSIC_URL}/beiying.mp3",
+            src: "<?php echo MUSIC_URL;?>
+/beiying.mp3",
             alltime: "05:54",
-            photo: "{IMG_URL}/lyj.jpg",
+            photo: "<?php echo IMG_URL;?>
+/lyj.jpg",
             lyrics: [
                 { time: "00:02", lyric: "背影" },
                 { time: "00:13", lyric: "林宥嘉" },
@@ -223,9 +259,11 @@
             id: "3",
             songs: "红玫瑰",
             name: "陈奕迅",
-            src: "{MUSIC_URL}/hongmeigui.mp3",
+            src: "<?php echo MUSIC_URL;?>
+/hongmeigui.mp3",
             alltime: "04:00",
-            photo: "{IMG_URL}//cyx.jpg",
+            photo: "<?php echo IMG_URL;?>
+//cyx.jpg",
             lyrics: [{ time: "00:01", lyric: "红玫瑰" },
                 { time: "00:04", lyric: "陈奕迅" },
                 { time: "00:06", lyric: "《认了吧》" },
@@ -276,9 +314,11 @@
             id: "4",
             songs: "初爱",
             name: "杨宗纬",
-            src: "{MUSIC_URL}/chuai.mp3",
+            src: "<?php echo MUSIC_URL;?>
+/chuai.mp3",
             alltime: "03:53",
-            photo: "{IMG_URL}/yzw.jpg",
+            photo: "<?php echo IMG_URL;?>
+/yzw.jpg",
             lyrics: [{ time: "00:01", lyric: "初爱" },
                 { time: "00:02", lyric: "作词：黄婷 作曲：木村充利" },
                 { time: "00:04", lyric: "演唱：杨宗纬" },
@@ -328,9 +368,11 @@
             id: "5",
             songs: "情书",
             name: "张学友",
-            src: "{MUSIC_URL}/qingshu.mp3",
+            src: "<?php echo MUSIC_URL;?>
+/qingshu.mp3",
             alltime: "04.06",
-            photo: "{IMG_URL}/zxy.jpg",
+            photo: "<?php echo IMG_URL;?>
+/zxy.jpg",
             lyrics: [
                 { time: "00:01", lyric: "情书" },
                 { time: "00:01", lyric: "作词 :姚若龙　作曲 :戚小恋" },
@@ -513,4 +555,6 @@
         console.log(i)
 
     }
-</script>
+<?php echo '</script'; ?>
+><?php }
+}
