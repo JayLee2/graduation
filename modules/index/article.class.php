@@ -141,7 +141,7 @@ class article extends main{
                 "uid"=>$uid,
                 "conid"=>$conid
             );
-            if ($c=='喜欢'){
+            if ($c =='喜欢'){
                 if($uid==$uid2){
                     echo "qin";
                 }else{
