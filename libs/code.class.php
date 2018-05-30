@@ -100,6 +100,7 @@ class code{
         }
     }
     public function out(){
+        ob_clean();
         header("content-type:image/png");
         $this->setCanvas();
         $this->setCon();
