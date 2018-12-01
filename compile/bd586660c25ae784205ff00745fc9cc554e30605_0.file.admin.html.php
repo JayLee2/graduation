@@ -1,3 +1,27 @@
+<?php
+/* Smarty version 3.1.30, created on 2018-06-04 09:46:22
+  from "C:\wamp64\www\mvcyyy\graduation\template\admin\admin.html" */
+
+/* @var Smarty_Internal_Template $_smarty_tpl */
+if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
+  'version' => '3.1.30',
+  'unifunc' => 'content_5b150a6e156034_30305615',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    'bd586660c25ae784205ff00745fc9cc554e30605' => 
+    array (
+      0 => 'C:\\wamp64\\www\\mvcyyy\\graduation\\template\\admin\\admin.html',
+      1 => 1528074061,
+      2 => 'file',
+    ),
+  ),
+  'includes' => 
+  array (
+  ),
+),false)) {
+function content_5b150a6e156034_30305615 (Smarty_Internal_Template $_smarty_tpl) {
+?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -5,11 +29,21 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="{CSS_URL}/admin.css">
+    <link rel="stylesheet" href="<?php echo CSS_URL;?>
+/admin.css">
     <link rel="stylesheet" href="http://at.alicdn.com/t/font_456519_dc2ylkemp132qpvi.css">
-    <script src="{JS_URL}/jquery-3.2.1.js"></script>
-    <script src="{JS_URL}/admin.js"></script>
-    <script src="{JS_URL}/prefixfree.min.js"></script>
+    <?php echo '<script'; ?>
+ src="<?php echo JS_URL;?>
+/jquery-3.2.1.js"><?php echo '</script'; ?>
+>
+    <?php echo '<script'; ?>
+ src="<?php echo JS_URL;?>
+/admin.js"><?php echo '</script'; ?>
+>
+    <?php echo '<script'; ?>
+ src="<?php echo JS_URL;?>
+/prefixfree.min.js"><?php echo '</script'; ?>
+>
     <title>Document</title>
     <style class="cp-pen-styles">body {
         background: radial-gradient(200% 100% at bottom center, #0070aa, #0b2570, #000035, #000);
@@ -55,7 +89,8 @@
     <div class="home"><i class="icon-weibiaoti2 iconfont"></i></div>
     <div class="return headBtn"><a href="index.php">返回首页</a></div>
     <div class="exit headBtn"><a href="index.php?m=login&f=login">退出登录</a></div>
-    <div class="user headBtn">{$user}</div>
+    <div class="user headBtn"><?php echo $_smarty_tpl->tpl_vars['user']->value;?>
+</div>
     <div class="help headBtn">帮助与文档</div>
     <div class="sou headBtn"><i class="icon-sousuo iconfont"></i>搜索</div>
 </header>
@@ -117,9 +152,13 @@
 
     <div class="stars">
     </div>
-    <script src='{JS_URL}/stopExecutionOnTimeout.js'></script>
+    <?php echo '<script'; ?>
+ src='<?php echo JS_URL;?>
+/stopExecutionOnTimeout.js'><?php echo '</script'; ?>
+>
 
-    <script>
+    <?php echo '<script'; ?>
+>
         $(document).ready(function () {
             var stars = 800;
             var $stars = $('.stars');
@@ -143,7 +182,8 @@
             });
         });
 
-    </script>
+    <?php echo '</script'; ?>
+>
     <div class="con">
         <div class="conLeft">
             <span class="hours"></span>:<span class="min"></span>:<span class="sec"></span>
@@ -158,4 +198,5 @@
 </div>
 <div class="con2">welcome</div>
 </body>
-</html>
+</html><?php }
+}

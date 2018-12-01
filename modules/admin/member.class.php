@@ -66,7 +66,7 @@
                  echo "ok";
              }
          }else{
-             echo "<script>alert('没哟权限')</script>";
+             echo "<script>alert('没有权限')</script>";
          }
      }
  }
