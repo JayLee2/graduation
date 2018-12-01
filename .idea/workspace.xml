@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="585fc4f5-e65b-4cb3-bbef-f88b55026ad1" name="Default" comment="saa">
@@ -34,9 +34,9 @@
       <change beforePath="" afterPath="$PROJECT_DIR$/upload/18-06-03/1527987207825timg.jpg" />
       <change beforePath="" afterPath="$PROJECT_DIR$/upload/18-06-03/15279872665514logo.png" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/modules/admin/member.class.php" afterPath="$PROJECT_DIR$/modules/admin/member.class.php" />
+
       <change beforePath="$PROJECT_DIR$/template/admin/admin.html" afterPath="$PROJECT_DIR$/template/admin/admin.html" />
-      <change beforePath="$PROJECT_DIR$/template/index/article.html" afterPath="$PROJECT_DIR$/template/index/article.html" />
+
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -50,6 +50,7 @@
       <file leaf-file-name="article.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/template/index/article.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="5474">
               <caret line="238" column="0" lean-forward="false" selection-start-line="238" selection-start-column="0" selection-end-line="238" selection-end-column="0" />
               <folding>
@@ -66,20 +67,74 @@
                 <marker date="1527750308988" expanded="true" signature="10144:10263" ph="..." />
                 <marker date="1527750308988" expanded="true" signature="10303:10557" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="music.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/template/index/music.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3220">
-              <caret line="10" column="62" lean-forward="false" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
+=======
+            <state relative-caret-position="920">
+              <caret line="40" column="7" lean-forward="false" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="40" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="route.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/libs/route.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="690">
+              <caret line="30" column="40" lean-forward="false" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/template/index/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="575">
+              <caret line="25" column="33" lean-forward="false" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Smarty.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/libs/smarty/Smarty.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4232">
+              <caret line="213" column="58" lean-forward="false" selection-start-line="213" selection-start-column="49" selection-end-line="213" selection-end-column="58" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SmartyBC.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/libs/smarty/SmartyBC.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+>>>>>>> 8886f6265f275806356092fa9e1d347066885728
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
+      <file leaf-file-name="music.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/template/index/music.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3220">
+              <caret line="10" column="62" lean-forward="false" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
+=======
+      <file leaf-file-name="smarty.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/libs/smarty.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="805">
+              <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+>>>>>>> 8886f6265f275806356092fa9e1d347066885728
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../index.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -148,15 +203,31 @@
                 <marker date="1529742249819" expanded="true" signature="32597:32635" ph="/*...*/" />
                 <marker date="1529742249819" expanded="true" signature="32685:32864" ph="{...}" />
               </folding>
+=======
+      <file leaf-file-name="header.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/template/header.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="17" column="10" lean-forward="false" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+              <folding />
+>>>>>>> 8886f6265f275806356092fa9e1d347066885728
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="footer.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/template/footer.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="69">
               <caret line="3" column="32" lean-forward="false" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+=======
+      <file leaf-file-name="admin.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/template/admin/admin.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="575">
+              <caret line="103" column="33" lean-forward="true" selection-start-line="103" selection-start-column="33" selection-end-line="103" selection-end-column="33" />
+>>>>>>> 8886f6265f275806356092fa9e1d347066885728
               <folding />
             </state>
           </provider>
@@ -165,8 +236,13 @@
       <file leaf-file-name="index.class.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/index/index.class.php">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="690">
               <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+=======
+            <state relative-caret-position="3289">
+              <caret line="143" column="19" lean-forward="false" selection-start-line="143" selection-start-column="19" selection-end-line="143" selection-end-column="19" />
+>>>>>>> 8886f6265f275806356092fa9e1d347066885728
               <folding>
                 <marker date="1527659606437" expanded="true" signature="126:266" ph="select con.*... con" />
                 <marker date="1527659606437" expanded="true" signature="554:696" ph="select con.*... con" />
@@ -175,6 +251,7 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="admin.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/template/admin/admin.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -230,6 +307,15 @@
           </provider>
         </entry>
       </file>
+=======
+      <file leaf-file-name="1525433309112213.jpeg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ueditor/php/upload/image/20180504/1525433309112213.jpeg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+>>>>>>> 8886f6265f275806356092fa9e1d347066885728
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -246,6 +332,10 @@
       <find>contontCon</find>
       <find>con</find>
       <find>url</find>
+      <find>guanzhu</find>
+      <find>template</find>
+      <find>$template_dir</find>
+      <find>template</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -276,8 +366,11 @@
         <option value="$PROJECT_DIR$/modules/index/article.class.php" />
         <option value="$PROJECT_DIR$/template/index/article.html" />
         <option value="$PROJECT_DIR$/template/admin/admin.html" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/modules/admin/member.class.php" />
         <option value="$PROJECT_DIR$/../../index.php" />
+=======
+>>>>>>> 8886f6265f275806356092fa9e1d347066885728
       </list>
     </option>
   </component>
@@ -321,18 +414,51 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
+<<<<<<< HEAD
               <item name="graduation" type="b2602c69:ProjectViewProjectNode" />
               <item name="graduation" type="2a2b976b:PhpTreeStructureProvider$1" />
+=======
+              <item name="mvcyyy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mvcyyy" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="mvcyyy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mvcyyy" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="libs" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="mvcyyy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mvcyyy" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="libs" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="smarty" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="mvcyyy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mvcyyy" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="template" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="mvcyyy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mvcyyy" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="template" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="mvcyyy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mvcyyy" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="template" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="index" type="2a2b976b:PhpTreeStructureProvider$1" />
+>>>>>>> 8886f6265f275806356092fa9e1d347066885728
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -384,8 +510,13 @@
       <workItem from="1526870124233" duration="2348000" />
       <workItem from="1527650452508" duration="355000" />
       <workItem from="1527656536546" duration="4070000" />
+<<<<<<< HEAD
       <workItem from="1527741766812" duration="11807000" />
       <workItem from="1535448179021" duration="1241000" />
+=======
+      <workItem from="1527988222324" duration="4803000" />
+      <workItem from="1528012515545" duration="18000" />
+>>>>>>> 8886f6265f275806356092fa9e1d347066885728
     </task>
     <task id="LOCAL-00001" summary="验证码">
       <created>1527658210073</created>
@@ -398,10 +529,18 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="75157000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="2418" height="1308" extended-state="7" />
+=======
+    <option name="totallyTimeSpent" value="66930000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
+>>>>>>> 8886f6265f275806356092fa9e1d347066885728
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20625" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -438,31 +577,52 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/libs/smarty/SmartyBC.class.php">
+=======
+    <entry file="file://$PROJECT_DIR$/libs/tree.class.php">
+>>>>>>> 8886f6265f275806356092fa9e1d347066885728
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/libs/smarty/Smarty.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-25113">
+=======
+    <entry file="file://$PROJECT_DIR$/static/js/zh-cn.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8970">
+>>>>>>> 8886f6265f275806356092fa9e1d347066885728
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/libs/smarty.class.php">
+=======
+    <entry file="file://$PROJECT_DIR$/libs/fenye.class.php">
+>>>>>>> 8886f6265f275806356092fa9e1d347066885728
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/libs/route.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="394">
           <caret line="30" column="40" lean-forward="true" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
+=======
+    <entry file="file://$PROJECT_DIR$/template/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> 8886f6265f275806356092fa9e1d347066885728
         </state>
       </provider>
     </entry>
@@ -572,13 +732,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/index/music.class.php" />
-    <entry file="file://$PROJECT_DIR$/template/index/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="25" column="33" lean-forward="false" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/libs/db.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -608,6 +761,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+<<<<<<< HEAD
         </state>
       </provider>
     </entry>
@@ -615,6 +769,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
           <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+=======
+>>>>>>> 8886f6265f275806356092fa9e1d347066885728
         </state>
       </provider>
     </entry>
@@ -629,6 +785,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+<<<<<<< HEAD
+=======
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/index/music.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="62" lean-forward="false" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
+>>>>>>> 8886f6265f275806356092fa9e1d347066885728
         </state>
       </provider>
     </entry>
@@ -641,7 +807,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
+        <state relative-caret-position="0">
           <caret line="9" column="2" lean-forward="false" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
         </state>
       </provider>
@@ -649,14 +815,22 @@
     <entry file="file://$PROJECT_DIR$/template/index/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
+<<<<<<< HEAD
           <caret line="14" column="31" lean-forward="false" selection-start-line="13" selection-start-column="23" selection-end-line="14" selection-end-column="31" />
+=======
+          <caret line="14" column="31" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="14" selection-end-column="31" />
+>>>>>>> 8886f6265f275806356092fa9e1d347066885728
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/index/login.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
+<<<<<<< HEAD
           <caret line="12" column="20" lean-forward="false" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+=======
+          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+>>>>>>> 8886f6265f275806356092fa9e1d347066885728
         </state>
       </provider>
     </entry>
@@ -664,18 +838,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1518">
           <caret line="110" column="0" lean-forward="false" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/upload/18-05-04/15254331254579WechatIMG2.jpeg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/index/article.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3289">
-          <caret line="143" column="19" lean-forward="false" selection-start-line="143" selection-start-column="19" selection-end-line="143" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -689,11 +851,39 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/template/index/article.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="155" column="21" lean-forward="true" selection-start-line="155" selection-start-column="21" selection-end-line="155" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/index/article.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3289">
+          <caret line="143" column="19" lean-forward="false" selection-start-line="143" selection-start-column="19" selection-end-line="143" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload/18-05-04/15254331254579WechatIMG2.jpeg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ueditor/php/upload/image/20180504/1525433309112213.jpeg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/libs/smarty.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="805">
+          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="805">
@@ -776,6 +966,61 @@
             <marker date="1527750308988" expanded="true" signature="10144:10263" ph="..." />
             <marker date="1527750308988" expanded="true" signature="10303:10557" ph="..." />
           </folding>
+=======
+    <entry file="file://$PROJECT_DIR$/libs/smarty/SmartyBC.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/smarty/Smarty.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4232">
+          <caret line="213" column="58" lean-forward="false" selection-start-line="213" selection-start-column="49" selection-end-line="213" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="920">
+          <caret line="40" column="7" lean-forward="false" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/route.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="30" column="40" lean-forward="false" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/index/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="25" column="33" lean-forward="false" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="10" lean-forward="false" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/admin/admin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="103" column="33" lean-forward="true" selection-start-line="103" selection-start-column="33" selection-end-line="103" selection-end-column="33" />
+          <folding />
+>>>>>>> 8886f6265f275806356092fa9e1d347066885728
         </state>
       </provider>
     </entry>
